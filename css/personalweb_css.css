@@ -1,0 +1,87 @@
+
+#mySidenav a {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 10px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  text-align: left;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#home {
+  top: 20px;
+  background-color: indianred;
+}
+
+#biography {
+  top: 80px;
+  background-color: coral;
+}
+
+#family {
+  top: 140px;
+  background-color:yellow;
+}
+
+#education {
+  top: 200px;
+  background-color: lawngreen;
+
+}
+
+#experience {
+  top: 260px;
+  background-color: skyblue;
+}
+
+#gallery {
+  top: 320px;
+  background-color: purple;
+}
+
+#video {
+  top: 380px;
+  background-color: mediumpurple;
+}
+
+#contact {
+  top: 440px;
+  background-color: chocolate;
+}
+
+
+p{
+text-align: center;
+font-family: Arial;
+font-size: 15px;
+}
+
+body
+{
+  background-color: #ffe6e6;
+}
+
+h1
+{
+  font-family: times new roman;
+  color: deeppink;
+  font-size: 50px;
+
+}
+h2
+{
+  font-family: times new roman;
+   color: deeppink;
+}
+
+
+
+

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+	<link rel="stylesheet" type="text/css" href="css/personalweb_css.css">
+<style>
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+ 
+
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: purple;
+  color: white;
+  font-size: 15px;
+  padding: 15px 32px;
+}
+
+
+
+</style>
+</head>
+<body>
+<br>
+
+<div style="margin-left:100px;">
+  
+  
+
+
+<div id="mySidenav" class="sidenav">
+  <a href="file:///C:/Users/SARAH/OneDrive/Desktop/IMS456/Sublime%20Class/assignment_personal_website/index.html" id="home">HOME</a><br>
+  <a href="file:///C:/Users/SARAH/OneDrive/Desktop/IMS456/Sublime%20Class/assignment_personal_website/biography.html" id="biography">Biography</a>
+  <a href="file:///C:/Users/SARAH/OneDrive/Desktop/IMS456/Sublime%20Class/assignment_personal_website/family.html" id="family">Family</a>
+  <a href="file:///C:/Users/SARAH/OneDrive/Desktop/IMS456/Sublime%20Class/assignment_personal_website/education.html" id="education">Education</a>
+  <a href="file:///C:/Users/SARAH/OneDrive/Desktop/IMS456/Sublime%20Class/assignment_personal_website/experience.html" id="experience">Experience</a>
+  <a href="file:///C:/Users/SARAH/OneDrive/Desktop/IMS456/Sublime%20Class/assignment_personal_website/gallery.html" id="gallery">Gallery</a>
+    <a href="file:///C:/Users/SARAH/OneDrive/Desktop/IMS456/Sublime%20Class/assignment_personal_website/video.html" id="video">Video</a>
+  <a href="file:///C:/Users/SARAH/OneDrive/Desktop/IMS456/Sublime%20Class/assignment_personal_website/contact.html" id="contact">Contact</a>
+</div>
+
+
+  
+
+
+<center><h1>My Family Tree&#x1F496;</h1>
+</center><b>
+
+
+
+<center><div class="container">
+  <center><img src="image/abah.jpg" alt="Hasriyanti(47)" class="image" style="width:300px; height: 400;"></center>
+  <div class="middle">
+    <div class="text">Father: Mr Roslan(55)</div>
+  </div>
+</div></center>
+<br>
+
+<center><div class="container">
+  <center><img src="image/mama.jpg" alt="Hasriyanti(47)" class="image" style="width:300px; height: 400;"></center>
+  <div class="middle">
+    <div class="text">Mother:Mrs Yanti(45)</div>
+  </div>
+</div></center>
+<br>
+
+<center><div class="container">
+  <center><img src="image/yaya.jpg" alt="Hasriyanti(47)" class="image" style="width:300px; height: 400;"></center>
+  <div class="middle">
+    <div class="text">First child:Ainin(26)</div>
+  </div>
+</div></center>
+<br>
+
+<center><div class="container">
+  <center><img src="image/abby.jpg" alt="Hasriyanti(47)" class="image" style="width:300px; height: 400;"></center>
+  <div class="middle">
+    <div class="text">Third child:Adlin(20)</div>
+  </div>
+</div></center>
+<br>
+<center><div class="container">
+  <center><img src="image/hana.jpg" alt="Hasriyanti(47)" class="image" style="width:300px; height: 400;"></center>
+  <div class="middle">
+    <div class="text">Fourth child: Hana(12)</div>
+  </div>
+</div></center>
+<br>
+</div>
+
+<script>
+// When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("navbar").style.padding = "30px 10px";
+    document.getElementById("logo").style.fontSize = "25px";
+  } else {
+    document.getElementById("navbar").style.padding = "80px 10px";
+    document.getElementById("logo").style.fontSize = "35px";
+  }
+}
+</script>
+</body>
+</html>
